@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../ex021/pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+
+#container {
+    display: flex;
+    margin: 20px;
+    margin-right: 15%;
+    margin-top: 0;
+    margin-left: 15%;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    background-color: #0a2e0a;
+}
+.video > iframe {
+    width: 850px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.midiafoto, .android, .dandroids{
+    display: flex;
+    justify-content: center;
+}
+.artigo{
+    display: flex;
+    background-color: #82ed7e;
+    justify-content: center;
+    margin-left: 206px;
+    margin-right: 206px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 7px 0px black;
+}
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+}
+main > p {
+    text-align: center;
+}
+header {
+    background-image:  linear-gradient( to bottom, #82ed7e, #299d25, #2b4f2a);
+    padding: 15px;
+}
+header > h1 {
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+header > p {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+}
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+    color: #1c7019;
+    font-weight: bolder;
+}
+nav > a {
+    color: #3dd338;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 8px;
+}
+nav > a:hover{
+    box-shadow: inset 0px 5px 7px 0px #ffffff50;
+    border-radius: 3px;
+}
+section > h1 {
+    font-family: 'idroid';
+    color: #258f22;
+    text-indent: 30px;
+}
+section > h2 {
+    font-family: 'idroid';
+    color: #299d25;
+    text-indent: 30px;
+    background-image: linear-gradient( to left, #82ed7e21, #31ad2c54);
+}
+article > h3 {
+    background-color: #1c7019;
+    text-indent: 10px;
+    padding: 10px;
+    margin: 0%;
+    border-radius: 8px;
+}
+footer {
+    background-color: #2b4f2a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

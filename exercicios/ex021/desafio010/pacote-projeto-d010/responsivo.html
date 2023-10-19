@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px; /* VALOR MINIMO DE LARGURA */
+            max-width: 800px; /* VALOR MÁXIMO DE LARGURA */
+            margin: auto; /* CONTEÚDO AO CENTRO E ADAPTÁVEL*/
+        }
+        img {
+            width: 100%; /* IMAGEM 100% ADAPTÁVEL */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, porro! Eveniet laboriosam explicabo minus itaque libero expedita placeat nemo, corrupti adipisci quasi a quas officiis magnam sequi neque cumque nisi Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore consequuntur provident vel! Fuga eaque repudiandae inventore doloremque expedita, ipsa maiores, molestiae in aspernatur tempora ex, nostrum eligendi quod illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni debitis explicabo voluptates recusandae laudantium possimus velit quod quibusdam qui, suscipit, laborum error ducimus sed magnam inventore necessitatibus eveniet. Vero!</p>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+        <img src="imagens/irina-blok.jpg" alt="irina blok">
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, porro! Eveniet laboriosam explicabo minus itaque libero expedita placeat nemo, corrupti adipisci quasi a quas officiis magnam sequi neque cumque nisi Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore consequuntur provident vel! Fuga eaque repudiandae inventore doloremque expedita, ipsa maiores, molestiae in aspernatur tempora ex, nostrum eligendi quod illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni debitis explicabo voluptates recusandae laudantium possimus velit quod quibusdam qui, suscipit, laborum error ducimus sed magnam inventore necessitatibus eveniet. Vero!</p>
+    </main>
+    
+</body>
+</html>
