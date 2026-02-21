@@ -20,15 +20,15 @@ header > h1 {
     text-align: center;
 }
 
-menu{
-    display: block;
+nav{
+    display: none;
 }
 
-menu > ul{
+nav > ul{
     list-style-type: none;
 }
 
-menu > ul > li > a {
+nav > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -38,7 +38,7 @@ menu > ul > li > a {
     border: 2px solid darkgray;
 }
 
-menu > ul > li > a:hover{
+nav > ul > li > a:hover{
     background-color: #d3d3d3cc;
 }
 
@@ -60,4 +60,18 @@ article > p{
     margin-bottom: 20px;
     text-indent: 20px;
     letter-spacing: 1px;
+}
+
+span#burguer{
+    background-color: #2c2c2c;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover{
+    background-color: white;
+    color: black;
 }
